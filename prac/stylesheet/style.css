@@ -1,0 +1,88 @@
+
+body{
+  width:600px;
+  margin:20px auto;
+  font-family:sans-serif;
+
+}
+a:hover{
+  color:red;
+}
+article img{
+  float :left;
+  margin-right:15px;
+}
+article .continue{
+  float:right;
+}
+.continue:after{
+  content: ')';
+}
+.continue:before
+{
+  content: '(';
+}
+h2
+{
+    font-size: 39px;
+    line-height:43px;
+}
+
+a{
+  color: #276056;
+
+}
+.meta li{
+  display: inline;
+
+}
+.meta{
+  padding-left:0;
+}
+.meta li:last-child:after
+{
+  content: ' ';
+}
+article h2
+{
+  margin:0;
+}
+p{
+  font-size: 14px;
+  line-height:21px;
+}
+.meta li::after
+{
+  content:'\\';
+  padding:0 5px;
+  color: #999;
+}
+.preview{
+  float:right;
+ width: 420px;
+}
+.meta
+{
+  font-style: italic;
+  font-size: 14px;
+  margin: 0 0 8px;
+
+}
+.post_info{
+  background: #f3f3f3;
+  color:#999;
+  padding:3px;
+  float:left;
+  font-size: 14px;
+}
+.post_info a{
+  color:#999;
+  text-decoration: :none;
+}
+.post_info a:hover {
+  color:black;
+}
+.body{
+  clear: both;
+  color: :#575757;
+}
