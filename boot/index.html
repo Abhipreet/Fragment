@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title> OnLib </title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body >
+	 <div class="container colr" id="main">
+		 <div class="navbar navbar-fixed top navbar-inverse">
+			 <div class="container">
+				 <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+         <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+				</button>
+				 <a class="navbar-brand" href="/.."> <img id="logo" src="images/logo1.jpg" alt="Cannot Load"></a>
+       <div class="nav-collapse collapse navbar-responsive-collapse">
+				 <ul class="nav navbar-nav">
+					 <li class="active">
+						 <a href="#">HOME</a>
+					 </li>
+					 <li >
+						 <a href="#">ABOUT US</a>
+					 </li>
+					 <li>
+						 <a href="port.html">ALL BOOKS</a>
+					 </li>
+					 <li >
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">CATAGORIES<strong class="caret"></strong></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Science</a>
+							</li>
+							<li>
+								<a href="#">Literature</a>
+							</li>
+							<li>
+								<a href="#">Technology</a>
+							</li>
+							<li>
+								<a href="#">History</a>
+							</li>
+							<li>
+								<a href="#">Geography</a>
+							</li>
+							<li class="divider"></li>
+							<li class="dropdown-header">
+								More Books
+							</li>
+							<li>
+								<a href="#">Comics</a>
+							</li>
+							<li>
+								<a href="#">Autobiography</a>
+							</li>
+						</ul><!-- end of dropdown menu -->
+					</li>
+				 </ul><!-- end nav -->
+				 <form class="navbar-form pull-left">
+					 <input type="text" class="form-control" placeholder="Search Books".. id="searchInput">
+					 <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></button>
+		   </form><!-- end of nav form-->
+
+			 <!--------------------------------------------->
+			 <a href="#myModal" role="button" class="btn btn-warning pull-right mod" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Sign Up </a>
+
+			 <div class="modal fade" id="myModal">
+				 <div class="modal-dialog">
+					 <div class="modal-content">
+						 <div class="modal-header">
+							 <button class="close" data-dismiss="modal">&times;</button>
+
+							 <h4 class="modal-title">Sign Up</h4>
+						 </div><!-- end modal-header -->
+						 <div class="modal-body">
+
+							 <form class="form-horizontal">
+								 <div class="form-group">
+									 <label class="col-lg-2 control-label" for="inputName">Name</label>
+									 <div class="col-lg-10">
+										 <input class="form-control" id="inputName" placeholder="Name" type="text">
+									 </div>
+								 </div>
+
+								 <div class="form-group">
+									 <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+									 <div class="col-lg-10">
+										 <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+									 </div>
+								 </div>
+
+								 <div class="form-group">
+									 <label class="col-lg-2 control-label" for="inputMessage">Phone</label>
+									 <div class="col-lg-10">
+										 <textarea class="form-control" id="inputMessage" placeholder="Phone" ></textarea>
+										 <button class="btn btn-success pull-right" type="submit">Submit</button>
+									 </div>
+								 </div>
+							 </form>
+						 </div><!-- end modal-body -->
+
+						 <div class="modal-footer">
+							 <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+						 </div><!-- end modal-footer -->
+					 </div><!-- end modal-content -->
+				 </div><!-- end modal-dialog -->
+			 </div><!-- end myModal -->
+			 <!----------------------------------------------->
+			 <a href="#myModal1" role="button" class="btn btn-success pull-right mod" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Login </a>
+
+			 <div class="modal fade" id="myModal1">
+				 <div class="modal-dialog">
+					 <div class="modal-content">
+						 <div class="modal-header">
+							 <button class="close" data-dismiss="modal">&times;</button>
+
+							 <h4 class="modal-title">Login</h4>
+						 </div><!-- end modal-header -->
+						 <div class="modal-body">
+
+
+							 <form class="form-horizontal">
+								 <div class="form-group">
+									 <label class="col-lg-2 control-label" for="inputName">Email</label>
+									 <div class="col-lg-10">
+										 <input class="form-control" id="inputName" placeholder="Email/Username" type="text">
+									 </div>
+								 </div>
+
+								 <div class="form-group">
+									 <label class="col-lg-2 control-label" for="inputEmail">Password</label>
+									 <div class="col-lg-10">
+										 <input type="password"class="form-control" id="inputEmail" placeholder="Password" type="email">
+                     <button class="btn btn-success pull-right" type="submit">Login</button>
+									 </div>
+								 </div>
+
+
+							 </form>
+						 </div><!-- end modal-body -->
+
+						 <div class="modal-footer">
+							 <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+						 </div><!-- end modal-footer -->
+					 </div><!-- end modal-content -->
+				 </div><!-- end modal-dialog -->
+			 </div><!-- end myModal -->
+			 <!--------------------------------------------->
+
+			 </div><!-- end nav collapse-->
+			 </div><!-- end container -->
+		 </div>
+
+		 <div class="carousel slide" id="myCarousel">
+			 <!-- Indicators -->
+			 <ol class="carousel-indicators">
+       <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+			 <li data-slide-to="1" data-target="#myCarousel"></li>
+			 <li data-slide-to="2" data-target="#myCarousel"></li>
+			 </ol>
+     <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<img  id="pic1" src="images/book.jpg">
+				<div class="carousel-caption">
+					<h3>Live Your Dream</h3>
+					<p> A book is a dream that you hold in your hand </p>
+				</div><!-- end Carousel-caption-->
+			</div> <!-- end item -->
+			<div class="item" id="slide2">
+				<img  id="pic1" src="images/book1.jpg">
+			<div class="carousel-caption">
+				<h3>Learning</h3>
+				<p> Live as if you were to die tomorrow. Learn as if you were to live forever</p>
+			</div><!-- end Carousel-caption-->
+		</div> <!-- end item -->
+		<div class="item" id="slide3">
+			<img  id="pic1" src="images/book2.jpg">
+		<div class="carousel-caption">
+			<h3>Success</h3>
+			<p> Success is not final, failure is not fatal: it is the courage to continue that counts</p>
+		</div><!-- end Carousel-caption-->
+	</div> <!-- end item -->
+</div><!-- Carouselinner -->
+<!-- Controls -->
+<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+		 </div> <!-- end carousel -->
+		 <div class="row" id="moreInfo">
+			<div class="col-sm-12">
+				<h3><b>KNOW ABOUT US</b></h3>
+				<div class="tabbable ">
+					<ul class="nav nav-tabs">
+						<li class="active"><a class="myfont" href="#tab1" data-toggle="tab">Who we are</a></li>
+						 <li><a class="myfont" href="#tab2" data-toggle="tab"><b>Mission</a></b></li>
+							<li><a class="myfont" href="#tab3" data-toggle="tab"><b>What we do</b></a></li>
+
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+
+
+						 <img src="images/About300.jpg" class="thumbnail pull-left" alt="Placeholder image">
+
+						 <p class="lead">Nice of you to stop by to know about us! We are a library run by book lovers. We care about what we stack in our library and we care about our readers. We provide a nice ambiance to make sure visiting us will be a pleasurable experience for you. We have a hand-picked collection of books and our children's books are certainly our pride! You can browse our collection online and if the branch you are a member of allows, you can even get your books door delivered.
+	Be a part of OnLib and you will never have to look for good books anywhere else!</p>
+
+
+						 <hr>
+					 </div>
+					 <div class="tab-pane" id="tab2">
+
+
+						<img src="images/mission300.jpg" class="thumbnail pull-left" alt="Placeholder image">
+
+						<p class="lead">Onlib mission statement combines both the values that bring them market success (building safe, high quality products) and the values that contribute to a better world (philanthropic efforts to help the environment). For them, "a love of wild and beautiful places demands participation in the fight to save them." In the name of this cause, the company donates time, services, and at least 1% of their sales to hundreds of grassroots environmental groups around the world. </p>
+
+						<hr>
+					</div>
+
+					<div class="tab-pane" id="tab3">
+					 <img src="images/do.jpg" class="thumbnail pull-left" alt="Placeholder image">
+
+					 <p class="lead"> We provide all the essential books related to all fields. You can order any book online and it will be delivered immediately at your door.Reading is good for you. I  would say that, of course. I’m  a novelist – I’ve written five books for teenagers – and it’s obviously in my interest to encourage people to read.
+	 But there’s increasing evidence that reading for pleasure isn’t just another leisure pursuit, or merely a  way of improving literacy skills and factual knowledge.
+	 .</p>
+					 <hr>
+				 </div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+<!-------------------------------------------------------------------------->
+<div class="row" id="moreInfo1">
+
+ <div class="col-sm-6">
+<div class="tab-pane " id="tab4">
+ <h3><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>Come Visit us</small></h3>
+
+ <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31110.901944139354!2d77.56184938827425!3d12.916542091640547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1454052871731" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<h2>OnLib ltd. </br> <small> Office </small></h2>
+	 <h4>Address</h4>
+	<p>117, Koramangala 7th Block, Koramangala, Bengaluru, Karnataka 560030</p>
+	<h4>Phone.</h4>
+	<p>8372974890</p>
+
+</div><!-- end tab-pane -->
+</div>
+
+<div class="col-sm-6">
+	<h3>Our Story</h3>
+	<p>We are global leaders which provide the online service of books since 2005. We provide enterprises with strategic insights on what lies ahead. We help enterprises transform and thrive in a changing world through strategic consulting, operational leadership, and the co-creation of breakthrough solutions, including those in mobility, sustainability, big data, and cloud computing.</p>
+
+	<h4>Awards</h4>
+
+	<div class="list-group">
+		<a href="#" class="list-group-item">
+			<h4 class="list-group-item-heading">OnLib #9 on the 2015 Top 25 World's Best Multinational Workplaces list by Great Place to Work®. </h4>
+			<p class="list-group-item-text">For the fourth straight year, OnLib was recognized on this prestigious list. Monsanto placed #14 in 2012, #12 in 2013 and #8 in 2014. To be eligible for the list, qualifying companies must have appeared on at least five national Great Place to Work® lists, have at least 5,500 employees worldwide, and at least 40 percent of their global workforce must work outside the company's home country.</p>
+		</a>
+		<a href="#" class="list-group-item">
+			<h4 class="list-group-item-heading">OnLib Ranks #43 on 2015 Top 50 Companies for Diversity.</h4>
+			<p class="list-group-item-text">For the eighth consecutive year, OnLib was recognized as one of the DiversityInc Top 50 Companies for Diversity. In 2015 Monsanto ranked 43rd out of over 1,600 companies that applied for the recognition. </p>
+		</a>
+		<a href="#" class="list-group-item">
+			<h4 class="list-group-item-heading">OnLib named to FORTUNE magazine's 2015 list of "World's Most Admired Companies." </h4>
+			<p class="list-group-item-text">This year, OnLib ranked #1 in its industry sector on the annual ranking of the world's most admired and respected companies. Conducted through a partnership between FORTUNE and Hay Group, the “World's Most Admired Companies” list is determined based on a survey of 15,000 executives, who rate their peers and competitors on nine different aspects..</p>
+		</a>
+	</div><!-- list-group -->
+
+</div><!-- end col-sm-6 -->
+</div><!-- end moreInfo -->
+
+
+<!----------------------------------------------------->
+		 <div class="row" id="bigCallout">
+		 	<div class="col-12">
+
+		 		<div class="alert alert-success alert-block fade in" id="successAlert">
+		 			<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+		 			<h4>Success!</h4>
+		 			<p>Now get all the updates through mail</p>
+		 		</div><!-- end alert -->
+
+		 		<!-- Visible only on small devices -->
+		 		<div class="well well-small visible-sm">
+		 			<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+		 		</div><!-- end well-small -->
+
+		 		<div class="well">
+		 			<div class="page-header">
+		 				<h1>Subscribe!!!!<small> Stay connected to us</small></h1>
+		 			</div><!-- end page-header -->
+
+		 			<p class="lead"> Subscribe now to get all the updates through mails.You can also get all the updates by downloading our app in playstore.Be in touch with us by mails or sms and explore the exciting offers. You can unsubscribe us anytime through mails.Yo  </p>
+
+		 			<a href="" class="btn btn-large btn-primary" id="alertMe">Subscribe</a>
+		 			<a href="" class="btn btn-large btn-link">Help?</a>
+		 		</div><!-- end well -->
+
+		 	</div><!-- end col-12 -->
+		 </div><!-- end bigCallout -->
+
+
+		<div class="row" id="moreCourses">
+		</div>
+	</div>
+	<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+				<h6>Copyright &copy; 2016 OnLib</h6>
+				</div><!-- end col-sm-2 -->
+
+				<div class="col-sm-4">
+					<h6>About Us</h6>
+					<p>Onlib mission statement combines both the values that bring them market success (building safe, high quality products) and the values that contribute to a better world (philanthropic efforts to help the environment). For them, "a love of wild and beautiful places demands participation in the fight to save them." In the name of this cause, the company donates time, services, and at least 1% of their sales to hundreds of grassroots environmental groups around the world. </p>
+				</div><!-- end col-sm-4 -->
+
+				<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul class="unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div><!-- end col-sm-2 -->
+
+				<div class="col-sm-2">
+					<h6>Follow Us</h6>
+					<ul class="unstyled">
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Google Plus</a></li>
+					</ul>
+				</div><!-- end col-sm-2 -->
+
+				<div class="col-sm-2">
+					<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Preet</h6>
+				</div><!-- end col-sm-2 -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</footer>
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
